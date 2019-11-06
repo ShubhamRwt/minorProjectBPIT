@@ -50,5 +50,6 @@ app.post('/api/auth', (req,res) => {
 
 const PORT = 5000;
 
+
 app.listen(PORT);
 console.log('api runnging on port ' + PORT + ': ');
